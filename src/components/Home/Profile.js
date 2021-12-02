@@ -34,7 +34,7 @@ const Profile = () => {
                     <div className="profile-details-name">
                         <span className="primary-text">
                             {""}
-                            Hello, I AM <span className="hightted-text"> Palash Sarkar</span>
+                            Hello, I am <span className="hightted-text"> Palash Sarkar</span>
 
                         </span>
                     </div>
