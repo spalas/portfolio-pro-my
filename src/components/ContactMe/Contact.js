@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import emailjs from 'emailjs-com'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Contact = () => {
+    useEffect(() => {
+        AOS.init();
+    })
 
     function sendEmail(e) {
         e.preventDefault()
@@ -9,6 +14,7 @@ const Contact = () => {
             "user_4dDFap90gXZh3UHDAPQKe").then(res => {
                 console.log(res)
             }).catch(err => console.log(err))
+        e.target.reset();
 
     }
 
@@ -21,14 +27,14 @@ const Contact = () => {
                 <div className="col-12 col-md-6 " style={{
                     marginTop: "50px",
                     textAlign: "left",
+                }} data-aos="fade-down">
 
-                }}>
-                    <h1>Contact me </h1>
+                    <h1 className="animate__animated animate__bounce">Contact me </h1>
                     <h5>just fill the contact form </h5>
                     <p>Hey Do you want make your website you can contact with me </p>
                     <button type="button" className="btn btn-primary mt-5">See more</button>
                 </div>
-                <div className="col-12 col-md-6">
+                <div className="col-12 col-md-6" data-aos="fade-down">
                     <div className=" container"
                         style={{
                             marginTop: "50px",

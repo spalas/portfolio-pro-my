@@ -3,6 +3,7 @@ import React from 'react';
 import Typical from 'react-typical'
 import './Profile.css'
 
+
 const Profile = () => {
     return (
         <div className='profile-container'>
@@ -69,12 +70,14 @@ const Profile = () => {
                         </span>
                     </div>
                     <div className="profile-options">
+
                         <button className="btn-parimary-btn">
 
                             {""}
                             HIRE ME{""}
 
                         </button>
+
                         <a href="resume.pdf" download="Palash sarkar resume.pdf">
                             <button className="highligted-btn"> GET RESUME</button>
                         </a>

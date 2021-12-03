@@ -1,15 +1,23 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import project1 from '../../assests/Home/website/educatio.png'
 import project2 from '../../assests/Home/website/fooddelivey.png'
 import project3 from '../../assests/Home/website/splash.png'
 import project4 from '../../assests/Home/website/sunglass.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Projects = () => {
+
+
+    useEffect(() => {
+        AOS.init();
+    })
+
     return (
         <>
-            <h1 style={{ padding: "50px" }}>Projects</h1>
+            <h1 className="animate__animated animate__bounce animate__faster" style={{ padding: "50px" }}>Projects</h1>
 
-            <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="row row-cols-1 row-cols-md-2 g-4 " data-aos="fade-down">
 
 
                 <div class="col">

@@ -1,13 +1,20 @@
-import React from 'react';
-import myPic from '../../../src/assests/Home/mypic.gif'
-import './AboutMe.css'
+import React, { useEffect } from 'react';
+import myPic from '../../../src/assests/Home/mypic.gif';
+import './AboutMe.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const AboutMe = () => {
+
+    useEffect(() => {
+        AOS.init();
+    })
+
     return (
         <div>
             <h1 style={{ paddingTop: "50px", paddingBottom: "30px" }} >About me </h1>
             <hr />
-            <div className="row">
+            <div className="row" data-aos="fade-down" >
                 <div className="image col-12 col-md-6 col-lg-6">
                     <img style={{ width: "100%" }} src={myPic} alt="" />
                 </div>
