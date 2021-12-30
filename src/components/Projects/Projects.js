@@ -25,7 +25,7 @@ const Projects = () => {
                         <img src={project1} class="card-img-top" alt="..." />
                         <div style={{ textAlign: "left" }} class="card-body">
                             <h5 class="card-title">Education Website</h5>
-                            <p class="card-text"> This web site its only eucation website the its has login sytem create by firebase authentication and React</p>
+                            <p class="card-text"> This web site its only education website the its has login sytem create by firebase authentication and React</p>
                             <button type="button" class="btn btn-primary">See more</button>
                         </div>
 

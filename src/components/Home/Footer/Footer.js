@@ -12,7 +12,7 @@ const Footer = () => {
                     </div>
                     <div style={{ textAlign: "left", padding: "10px", color: "white" }} className="col-6 col-md-6 col-lg-3">
                         <h3>Contact me</h3>
-                        <p>Email: spalash521@gmail.com</p>
+                        <p>spalash521@gmail.com</p>
                     </div>
                     <div style={{ textAlign: "left", padding: "10px", color: "white" }} className="col-6 col-md-6 col-lg-3">
                         <h3>Projects</h3>

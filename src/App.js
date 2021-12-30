@@ -1,6 +1,7 @@
 
 import './App.css';
 import AboutMe from './components/AboutMe/AboutMe';
+import Blogs from './components/Blogs/Blogs';
 import Contact from './components/ContactMe/Contact';
 import Footer from './components/Home/Footer/Footer';
 import Profile from './components/Home/Profile';
@@ -12,6 +13,7 @@ function App() {
       <Profile></Profile>
       <AboutMe></AboutMe>
       <Projects></Projects>
+      <Blogs></Blogs>
       <Contact></Contact>
       <Footer></Footer>
 

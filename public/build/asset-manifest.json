@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b1283c55.chunk.css",
+    "main.js": "/static/js/main.88fcb91e.chunk.js",
+    "main.js.map": "/static/js/main.88fcb91e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ded78faf.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ded78faf.js.map",
+    "static/css/2.ec02d681.chunk.css": "/static/css/2.ec02d681.chunk.css",
+    "static/js/2.00ecd0ee.chunk.js": "/static/js/2.00ecd0ee.chunk.js",
+    "static/js/2.00ecd0ee.chunk.js.map": "/static/js/2.00ecd0ee.chunk.js.map",
+    "static/js/3.8d3a14f4.chunk.js": "/static/js/3.8d3a14f4.chunk.js",
+    "static/js/3.8d3a14f4.chunk.js.map": "/static/js/3.8d3a14f4.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.ec02d681.chunk.css.map": "/static/css/2.ec02d681.chunk.css.map",
+    "static/css/main.b1283c55.chunk.css.map": "/static/css/main.b1283c55.chunk.css.map",
+    "static/js/2.00ecd0ee.chunk.js.LICENSE.txt": "/static/js/2.00ecd0ee.chunk.js.LICENSE.txt",
+    "static/media/Profile.css": "/static/media/palash.d64b9f35.jpg",
+    "static/media/educatio.e4567d3a.png": "/static/media/educatio.e4567d3a.png",
+    "static/media/fooddelivey.b0d045e6.png": "/static/media/fooddelivey.b0d045e6.png",
+    "static/media/mypic.d7a21acb.gif": "/static/media/mypic.d7a21acb.gif",
+    "static/media/splash.0d797a4c.png": "/static/media/splash.0d797a4c.png",
+    "static/media/sunglass.d1741acc.png": "/static/media/sunglass.d1741acc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ded78faf.js",
+    "static/css/2.ec02d681.chunk.css",
+    "static/js/2.00ecd0ee.chunk.js",
+    "static/css/main.b1283c55.chunk.css",
+    "static/js/main.88fcb91e.chunk.js"
+  ]
+}

@@ -44,7 +44,7 @@ const Contact = () => {
                             backgroundSize: "cover"
                         }}>
                         <h1 style={{ marginTop: "25px" }}>Contact form</h1>
-                        <form className="row" style={{ margin: "25px 85px 75px 100px" }}
+                        <form className="row" style={{ margin: "2px 5px 5px 2px" }}
                             onSubmit={sendEmail}>
                             <label>Name</label>
                             <input type="name" name="name"></input>
