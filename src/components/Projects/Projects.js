@@ -26,7 +26,8 @@ const Projects = () => {
                         <div style={{ textAlign: "left" }} class="card-body">
                             <h5 class="card-title">Education Website</h5>
                             <p class="card-text"> This web site its only education website the its has login sytem create by firebase authentication and React</p>
-                            <button type="button" class="btn btn-primary">See more</button>
+                          <a href="https://naughty-leavitt-0b6d9a.netlify.app/" title="education wibsite">
+                            <button type="button" class="btn btn-primary">See more</button></a>
                         </div>
 
                     </div>
@@ -37,7 +38,8 @@ const Projects = () => {
                         <div style={{ textAlign: "left" }} class="card-body">
                             <h5 class="card-title">Fast-vip</h5>
                             <p class="card-text">Fast-vip website its made by only react framework using firebase and google login and client can register his name.</p>
-                            <button type="button" class="btn btn-primary">See more</button>
+                            <a href="https://fast-authentication.web.app/" alt="niche type">
+                            <button type="button" class="btn btn-primary">See more</button></a>
                         </div>
                     </div>
                 </div>
@@ -47,7 +49,8 @@ const Projects = () => {
                         <div style={{ textAlign: "left" }} class="card-body">
                             <h5 class="card-title">Splash-spa</h5>
                             <p class="card-text"> Splash-spa website it is health relate client can get his service add by logining his name email get his service .</p>
-                            <button type="button" class="btn btn-primary">See more</button>
+                            <a href="https://splash-spa-authentication.web.app/" title="education wibsite">
+                            <button type="button" class="btn btn-primary">See more</button></a>
                         </div>
                     </div>
                 </div>
@@ -58,7 +61,8 @@ const Projects = () => {
                             <h5 class="card-title">two-sa-tar-sunglass</h5>
                             <p class="card-text">Two sunglass it niche type website it has register and google login sytem customer get acan get his by google and register
                             </p>
-                            <button type="button" class="btn btn-primary">See more</button>
+                            <a href="https://twosunglass-761a2.web.app/" title="education wibsite">
+                            <button type="button" class="btn btn-primary">See more</button></a>
                         </div>
                     </div>
                 </div>
